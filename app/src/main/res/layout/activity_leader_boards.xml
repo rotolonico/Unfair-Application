@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".LeaderBoards">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write your name"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nah I am good"/>
+
+    <EditText
+        android:id="@+id/esearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write the name of someone who played"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search in the leaderboards"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="startActivity"
+        android:id="@+id/flb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full leaderboards"
+        android:visibility="gone"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="200dp"/>
+
+
+
+
+</LinearLayout>
